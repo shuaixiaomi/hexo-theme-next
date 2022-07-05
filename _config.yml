@@ -832,6 +832,9 @@ mermaid:
     light: default
     dark: dark
 
+# Plantuml tag
+plantuml: 
+  render: "PlantUMLServer"
 
 # ---------------------------------------------------------------
 # Animation Settings
