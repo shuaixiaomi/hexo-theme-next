@@ -95,11 +95,11 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-  home: /
-  tags: /tags
-  categories: /categories
-  archives: /archives
-  about: /about
+  home: / || fa fa-home
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-user
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404.html
@@ -107,8 +107,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: true
-
+  badges: false
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -833,7 +832,7 @@ mermaid:
     dark: dark
 
 # Plantuml tag
-plantuml: 
+plantuml:
   render: "PlantUMLServer"
 
 # ---------------------------------------------------------------
