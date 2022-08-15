@@ -164,7 +164,7 @@
 		})
 	}), $(".card").click(function() {
 		var n = $(this).children(".card-header").children("div").children("a").attr("href");
-		window.location.href = n
+        window.open(n)
 	});
 </script>
   
