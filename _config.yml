@@ -991,9 +991,6 @@ canvas_ribbon:
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
 
-=======
->>>>>>> 35b9f78a8c53f683151f427660ecaf32d470f946
-
 # ---------------------------------------------------------------
 # CDN Settings
 # See: https://theme-next.js.org/docs/advanced-settings/vendors
